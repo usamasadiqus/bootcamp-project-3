@@ -1,6 +1,6 @@
 import React from "react";
 import { AppBar, makeStyles, Toolbar, Typography } from "@material-ui/core";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import Logo from "./../images/logo.png";
 
 const useStyles = makeStyles((theme) => ({
@@ -9,6 +9,18 @@ const useStyles = makeStyles((theme) => ({
   },
   logoImg: {
     width: 50,
+  },
+  navLinks: {
+    margin: "0 auto",
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+  },
+  linkItem: {
+    padding: "5px",
+    margin: "0 10px",
+    color: "#fff",
+    textDecoration: "none",
   },
 }));
 
@@ -19,10 +31,24 @@ export default function ButtonAppBar() {
     <div className={classes.root}>
       <AppBar position="static">
         <Toolbar>
-          <Typography variant="h6" className={classes.title}>
-            <Link to="/">
+          <Typography variant="h6">
+            <NavLink to="/">
               <img src={Logo} alt="Logo" className={classes.logoImg} />
-            </Link>
+            </NavLink>
+          </Typography>
+          <Typography variant="h6" className={classes.navLinks}>
+            <NavLink to="/" className={classes.linkItem}>
+              Home
+            </NavLink>
+            <NavLink to="/about" className={classes.linkItem}>
+              About
+            </NavLink>
+            <NavLink to="/menshoes" className={classes.linkItem}>
+              Men Shoes
+            </NavLink>
+            <NavLink to="/womenshoes" className={classes.linkItem}>
+              Women Shoes
+            </NavLink>
           </Typography>
         </Toolbar>
       </AppBar>
