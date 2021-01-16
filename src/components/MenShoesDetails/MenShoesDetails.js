@@ -1,4 +1,4 @@
-import MENShoes from "./../../menshoes.json";
+// import MENShoes from "./../../menshoes.json";
 import styles from "./MenShoesDetails.module.css";
 
 const MenShoesDetails = () => {
