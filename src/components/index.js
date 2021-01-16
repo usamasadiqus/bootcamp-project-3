@@ -6,3 +6,4 @@ export { default as MenShoesDetails } from "./MenShoesDetails/MenShoesDetails";
 export { default as WomenShoes } from "./WomenShoes/WomenShoes";
 export { default as WomenShoesDetails } from "./WomenShoesDetails/WomenShoesDetails";
 export { default as ContactUs } from "./ContactUs/ContactUs";
+export { default as Footer } from "./Footer/Footer";

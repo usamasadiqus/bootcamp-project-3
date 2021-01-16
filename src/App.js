@@ -7,6 +7,7 @@ import {
   WomenShoes,
   WomenShoesDetails,
   ContactUs,
+  Footer
 } from "./components";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./styles/App.css";
@@ -24,6 +25,7 @@ function App() {
         <Route path="/womenshoes/:id" element={<WomenShoesDetails />} />
         <Route path="/contactus" element={<ContactUs />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
   );
 }
