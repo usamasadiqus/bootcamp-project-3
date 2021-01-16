@@ -1,4 +1,3 @@
-import React from "react";
 import { NavLink } from "react-router-dom";
 import Logo from "./../../images/logo.png";
 import styles from "./Navbar.module.css";
