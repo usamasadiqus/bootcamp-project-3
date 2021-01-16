@@ -8,12 +8,12 @@ import {
   WomenShoesDetails,
   ContactUs,
 } from "./components";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./styles/App.css";
 
 function App() {
   return (
-    <Router>
+    <BrowserRouter>
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -24,7 +24,7 @@ function App() {
         <Route path="/womenshoes/:id" element={<WomenShoesDetails />} />
         <Route path="/contactus" element={<ContactUs />} />
       </Routes>
-    </Router>
+    </BrowserRouter>
   );
 }
 
