@@ -1,4 +1,4 @@
-import WOMENShoes from "./../../womenshoes.json";
+// import WOMENShoes from "./../../womenshoes.json";
 import styles from "./WomenShoes.module.css";
 
 const WomenShoes = () => {
