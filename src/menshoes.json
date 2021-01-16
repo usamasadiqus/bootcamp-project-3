@@ -2,31 +2,31 @@
     "air-jordan-3-valor-blue": {
         "name": "VALOUR BLUE",
         "img": "https://secure-images.nike.com/is/image/DotCom/CT8532_104_A_PREM?$SNKRS_COVER_WD$&align=0,1",
-        "price": 200
+        "price": "$200"
     },
     "jordan-mars-270-london": {
         "name": "JORDAN MARS 270 LONDON",
         "img": "https://secure-images.nike.com/is/image/DotCom/CV3042_001_A_PREM?$SNKRS_COVER_WD$&align=0,1",
-        "price": 300
+        "price": "$300"
     },
     "air-jordan-1-zoom-racer-blue": {
         "name": "RACER BLUE",
         "img": "https://secure-images.nike.com/is/image/DotCom/CK6637_104_A_PREM?$SNKRS_COVER_WD$&align=0,1",
-        "price": 400
+        "price": "$400"
     },
     "smart-tan-lace-ups-casuals": {
-        "name": "171 Smart Tan Lace-Ups Casuals for Men Sneakers For Men  (Tan)",
+        "name": "171 Smart Lace-Ups  (Tan)",
         "img": "https://rukminim1.flixcart.com/image/800/960/k6jnfrk0/shoe/z/x/9/171-8-pexlo-black-tan-original-imafzqbthfzkqv76.jpeg?q=50",
-        "price": 500
+        "price": "$500"
     },
     "running-shoes-walking-shoes": {
-        "name": "Running Shoes Walking Shoes For Men  (Grey)",
+        "name": "Running Shoes Walking  (Grey)",
         "img": "https://rukminim1.flixcart.com/image/800/960/kb9ou4w0/shoe/o/4/0/shoes-for-men-black-36-badlav-black-original-imafghd4tsktkq7y.jpeg?q=50",
-        "price": 600
+        "price": "$600"
     },
     "running-shoes": {
         "name": "Running Shoes For Men  (Black)",
         "img": "https://rukminim1.flixcart.com/image/800/960/kbtp0280/shoe/c/k/k/gm1251-43-good-minar-black-original-imaft34ej4zx2z63.jpeg?q=50",
-        "price": 700
+        "price": "$700"
     }
 }

@@ -1,6 +1,15 @@
-import { Navbar, Home, About, MenShoes, WomenShoes } from "./components";
+import {
+  Navbar,
+  Home,
+  About,
+  MenShoes,
+  MenShoesDetails,
+  WomenShoes,
+  WomenShoesDetails,
+  ContactUs,
+} from "./components";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import "./App.css";
+import "./styles/App.css";
 
 function App() {
   return (
@@ -10,7 +19,10 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/menshoes" element={<MenShoes />} />
+        <Route path="/menshoes/:id" element={<MenShoesDetails />} />
         <Route path="/womenshoes" element={<WomenShoes />} />
+        <Route path="/womenshoes/:id" element={<WomenShoesDetails />} />
+        <Route path="/contactus" element={<ContactUs />} />
       </Routes>
     </Router>
   );
