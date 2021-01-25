@@ -11,7 +11,7 @@ const MenShoesDetails = () => {
       <h2>Men Shoe Details</h2>
       <div className={styles.product_details}>
         <div className={styles.product_image}>
-          <img src={shoe.img} alt="Men Shoe Image" />
+          <img src={shoe.img} alt="" />
         </div>
         <div className={styles.name_price_and_button}>
           <h2 className={styles.product_name}>{shoe.name}</h2>
