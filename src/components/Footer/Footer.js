@@ -9,7 +9,7 @@ export default function Footer() {
         <img src={Logo} alt="Logo" />
         <h3>Shoe Store</h3>
       </NavLink>
-      <p>&copy; copyright 2021. All rights reserved</p>
+      <p>&copy; copyright {new Date().getFullYear()}. All rights reserved</p>
     </div>
   );
 }

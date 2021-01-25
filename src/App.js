@@ -7,7 +7,7 @@ import {
   WomenShoes,
   WomenShoesDetails,
   ContactUs,
-  Footer
+  Footer,
 } from "./components";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./styles/App.css";
@@ -31,3 +31,5 @@ function App() {
 }
 
 export default App;
+
+// navbar ko mobile view me hamburger lagana hai
