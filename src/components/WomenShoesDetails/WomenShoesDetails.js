@@ -11,7 +11,7 @@ const WomenShoesDetails = () => {
       <h2>Women Shoe Details</h2>
       <div className={styles.product_details}>
         <div className={styles.product_image}>
-          <img src={shoe.img} alt={`${shoe.name} Image`} />
+          <img src={shoe.img} alt="Women Shoe Image" />
         </div>
         <div className={styles.name_price_and_button}>
           <h2 className={styles.product_name}>{shoe.name}</h2>
