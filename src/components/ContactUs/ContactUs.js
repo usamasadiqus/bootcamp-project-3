@@ -1,4 +1,3 @@
-import Image from "./../../images/image.jpeg";
 import styles from "./ContactUs.module.css";
 
 const ContactUs = () => {
